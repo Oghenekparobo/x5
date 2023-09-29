@@ -8,14 +8,14 @@ import Private from "../components/private/Index";
 const HomeLayout = () => {
   return (
     <div className="bg-custom-body">
-      <div className="public">
+      {/* <div className="public">
         <Navbar />
         <Header />
         <Feature />
         <Work />
-      </div>
+      </div> */}
 
-      {/* <Private /> */}
+      <Private />
 
       <Footer />
     </div>
