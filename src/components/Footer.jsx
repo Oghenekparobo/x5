@@ -3,7 +3,10 @@ import icon from "../assets/iCON.png";
 
 const Footer = () => {
   return (
-    <section className="features w-full bg-custom-indigo py-20" id="features">
+    <section
+      className="features w-full bg-custom-indigo py-20 px-10"
+      id="features"
+    >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <Link to="/">
           <div className="logo flex items-center space-x-2">

@@ -10,7 +10,7 @@ const Work = () => {
         <div className="work-wrappers grid grid-cols-3 gap-6 py-20">
           <div className="work-section">
             <div className="work-number text-center flex flex-col justify-center items-center">
-              <div className="bg-indigo-950 text-white h-12 w-12 w-4 p-3 rounded-full ">
+              <div className="bg-indigo-950 text-white h-8 w-8 w-4 p-1 rounded-full ">
                 <h1>1</h1>
               </div>
               <h4 className="text-xl text-custom-indigo font-bold my-2">
@@ -28,7 +28,7 @@ const Work = () => {
           </div>
           <div className="work-section">
             <div className="work-number text-center flex flex-col justify-center items-center">
-              <div className="bg-indigo-950 text-white h-12 w-12 w-4 p-3 rounded-full ">
+              <div className="bg-indigo-950 text-white h-8 w-8 w-4 p-1 rounded-full ">
                 <h1>2</h1>
               </div>
               <h4 className="text-xl text-custom-indigo font-bold my-2">
@@ -46,7 +46,7 @@ const Work = () => {
           </div>
           <div className="work-section">
             <div className="work-number text-center flex flex-col justify-center items-center">
-              <div className="bg-indigo-950 text-white h-12 w-12 w-4 p-3 rounded-full ">
+              <div className="bg-indigo-950 text-white h-8 w-8 w-4 p-1 rounded-full ">
                 <h1>3</h1>
               </div>
               <h4 className="text-xl text-custom-indigo font-bold my-2">
