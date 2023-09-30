@@ -16,7 +16,7 @@ const Footer = () => {
         </Link>
         <div className="footer-links">
           <ul className="flex flex-col">
-            <l className="text-white capitalize hover:font-bold">menu</l>
+            <li className="text-white capitalize hover:font-bold">menu</li>
             <li className="text-white capitalize hover:font-bold">home</li>
             <li className="text-white capitalize hover:font-bold">converter</li>
             <li className="text-white capitalize hover:font-bold">
