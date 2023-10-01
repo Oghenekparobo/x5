@@ -1,6 +1,7 @@
 import rec from "../../assets/works/Rec.svg";
 import copy from "../../assets/auth/copy.png";
 import Player from "../player/Player";
+import ReactPlayer from "react-player";
 
 const Recording = () => {
   return (
@@ -11,13 +12,16 @@ const Recording = () => {
         </h1>
       </div>
 
-      <div className="recording-video__loader w-full h-[50px]">
-        <div className="loader w-full h-1/2">
-          <Player />
-        </div>
+      <div className="recording-video__loader  ">
+        <ReactPlayer
+          url="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+          width="100%"
+          // height="100%"
+        />
+        ;
       </div>
 
-      <div className="links flex justify-between">
+      <div className="links flex flex-col justify-between items-center space-y-10 md:space-y-0 md:flex-row">
         <div className="email-reciever bg-custom-body py-2 px-10 w-96 flex justify-between rounded-xl">
           <input
             type="text"
