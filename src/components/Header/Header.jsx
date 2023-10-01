@@ -8,7 +8,7 @@ import dotted2 from "../../assets/Dotted2.png";
 const Header = () => {
   return (
     <section className=" bg-white w-full my-1 shadow-sm py-36">
-      <header className="max-w-7xl mx-auto px-8 grid grid-cols-2">
+      <header className="max-w-7xl mx-auto px-8 grid grid-cols-1 gap-y-10 md:grid-cols-2 md:gap-y-0">
         <div className="header-text place-self-center">
           <h1 className="text-black font-bold text-5xl max-w-sm">
             Show Them Don't Just Tell

@@ -1,4 +1,5 @@
 import card from "../../assets/works/Rec.svg";
+
 const Work = () => {
   return (
     <section className="features w-full bg-white mt-18" id="features">
@@ -7,7 +8,7 @@ const Work = () => {
           <h2 className="capitalize text-3xl font-bold">How it works</h2>
         </div>
 
-        <div className="work-wrappers grid grid-cols-3 gap-6 py-20">
+        <div className="work-wrappers grid grid-cols-1 gap-6 py-20 md:grid-cols-3">
           <div className="work-section">
             <div className="work-number text-center flex flex-col justify-center items-center">
               <div className="bg-indigo-950 text-white h-8 w-8 w-4 p-1 rounded-full ">
@@ -18,12 +19,16 @@ const Work = () => {
               </h4>
             </div>
 
-            <div className="work-paragraph max-w-sm text-sm text-center my-6">
-              Click the "Start Recording" button in our extension. choose which
+            <div className="work-paragraph max-w-sm text-sm text-center my-6 mx-auto">
+              Click the "Start Recording" button in our extension. Choose which
               part of your screen to capture and who you want to send it to.
             </div>
-            <div className="work-img">
-              <img src={card} alt="recording caard illustration" />
+            <div className="work-img mx-auto text-center">
+              <img
+                src={card}
+                alt="recording card illustration"
+                className="mx-auto"
+              />
             </div>
           </div>
           <div className="work-section">
@@ -36,12 +41,16 @@ const Work = () => {
               </h4>
             </div>
 
-            <div className="work-paragraph max-w-sm text-sm text-center my-6">
+            <div className="work-paragraph max-w-sm text-sm text-center my-6 mx-auto">
               We generate a shareable link for your video. Simply send it to
               your audience via email or copy the link to send via any platform.
             </div>
-            <div className="work-img">
-              <img src={card} alt="recording caard illustration" />
+            <div className="work-img mx-auto text-center">
+              <img
+                src={card}
+                alt="recording card illustration"
+                className="mx-auto"
+              />
             </div>
           </div>
           <div className="work-section">
@@ -54,12 +63,16 @@ const Work = () => {
               </h4>
             </div>
 
-            <div className="work-paragraph max-w-sm text-sm text-center my-6">
+            <div className="work-paragraph max-w-sm text-sm text-center my-6 mx-auto">
               Recipients can access your video effortlessly through the provided
               link, with our user-friendly interface suitable for everyone.
             </div>
-            <div className="work-img">
-              <img src={card} alt="recording caard illustration" />
+            <div className="work-img mx-auto text-center">
+              <img
+                src={card}
+                alt="recording card illustration"
+                className="mx-auto"
+              />
             </div>
           </div>
         </div>

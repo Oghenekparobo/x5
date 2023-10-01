@@ -5,11 +5,11 @@ const LastWeek = () => {
   return (
     <section className="last-recordings max-w-6xl mx-auto ">
       <div className="header py-10">
-        <h4 className="text-gray-900">Files from last week</h4>
+        <h4 className="text-gray-900 px-6 md:px-0">Files from last week</h4>
       </div>
 
-      <section className="recordings pb-20">
-        <div className="wrapper grid grid-cols-2">
+      <section className="recordings pb-20 px-10 md:px-0">
+        <div className="wrapper  grid gap-y-20 grid-cols-1 md:gap-y-0 md:grid-cols-2">
           <Link to="/Facebook/recording">
             <div className="recording-card border border-gray-200 w-4/5 shadow-sm rounded-xl">
               <div className="recording-card__img w-full p-4">

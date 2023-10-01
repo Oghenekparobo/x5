@@ -17,8 +17,8 @@ const Auth = () => {
         </Link>
       </header>
 
-      <section className="auth-section grid  grid-cols-1 place-items-center">
-        <div className="wrapper">
+      <section className="auth-section grid  grid-cols-1 place-items-center px-20 md:px-0">
+        <div className="wrapper  px-20 md:px-0">
           <div className="auth-header__text">
             <h1 className="text-center text-black text-3xl font-bold tracking-wide">
               Log in or Sign up
@@ -30,7 +30,7 @@ const Auth = () => {
               </Link>
             </p>
           </div>
-          <div className="auth-header__options flex flex-col space-y-8 mt-6">
+          <div className="auth-header__options flex flex-col space-y-8 mt-6 ">
             <button className="google border border-gray-600 rounded-lg flex justify-evenly px-10 w-96 py-2 ">
               <span>
                 <img src={google} alt="google png logo" />
@@ -83,12 +83,14 @@ const Auth = () => {
             </div>
 
             {/* submit btn */}
-            <button
-              type="submit"
-              className="capitalize bg-indigo-950 py-2 text-white w-full rounded-md my-2"
-            >
-              sign up
-            </button>
+            <Link to="/profile">
+              <button
+                type="submit"
+                className="capitalize bg-indigo-950 py-2 text-white w-full rounded-md my-2"
+              >
+                sign up
+              </button>
+            </Link>
           </form>
         </div>
       </section>

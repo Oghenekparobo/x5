@@ -7,7 +7,7 @@ const Footer = () => {
       className="features w-full bg-custom-indigo py-20 px-10"
       id="features"
     >
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
+      <div className="max-w-7xl mx-auto flex flex-col items-center justify-between space-y-10 md:flex-row md:space-y-0">
         <Link to="/">
           <div className="logo flex items-center space-x-2">
             <img src={icon} alt="logo" />

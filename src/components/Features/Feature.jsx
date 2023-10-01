@@ -14,7 +14,7 @@ const Feature = () => {
         </div>
 
         {/* /features-grid */}
-        <div className="feature-grid grid grid-cols-2 my-14 py-14">
+        <div className=" feature-grid grid grid-col-1 my-14 py-0 px-20 md:px-0 md:py-14 md:grid-cols-2 ">
           <div className="grid-text">
             <div className="grid-feature__box flex">
               <div className="logo bg-custom-indigo rounded-full h-10 p-1">
@@ -61,7 +61,7 @@ const Feature = () => {
               </div>
             </div>
           </div>
-          <div className="img pb-16">
+          <div className="img pb-16 py-10 md:py-0">
             <img src={video} alt="video repo img" />
           </div>
         </div>

@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import Header from "./Header";
 import Recent from "../recordings/Recent";
 import LastWeek from "../recordings/LastWeek";
+import Footer from "../Footer";
 
 const Private = () => {
   return (
@@ -17,6 +18,8 @@ const Private = () => {
 
       {/* last week */}
       <LastWeek />
+
+      <Footer />
     </section>
   );
 };

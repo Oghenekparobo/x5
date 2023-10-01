@@ -5,7 +5,7 @@ import Logo from "./util/Logo";
 const Navbar = () => {
   return (
     <nav className="w-full py-6 bg-white">
-      <div className="max-w-7xl mx-auto flex justify-between items-center px-8 ">
+      <div className="max-w-7xl mx-auto flex flex-col space-y-8 justify-between items-center px-8 md:flex-row md:space-y-0 ">
         <Logo />
 
         <div className="links">
@@ -14,7 +14,7 @@ const Navbar = () => {
               <ScrollLink />
             </li>
             <li>
-              <Link to="#">how it works</Link>
+              <Link to="/profile">how it works</Link>
             </li>
           </ul>
         </div>
