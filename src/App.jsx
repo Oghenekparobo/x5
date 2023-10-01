@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<HomeLayout />} />
         <Route path="/profile" element={<Private />} />
         <Route path="/redirect" element={<RedirectPage />} />
-        <Route path="/:id/recording" element={<SingleRecording />} />
+        <Route path="/recording" element={<SingleRecording />} />
         <Route path="/auth" element={<Auth />} />
       </Routes>
     </BrowserRouter>
