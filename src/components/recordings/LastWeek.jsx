@@ -10,7 +10,7 @@ const LastWeek = () => {
 
       <section className="recordings pb-20 px-10 md:px-0">
         <div className="wrapper  grid gap-y-20 grid-cols-1 md:gap-y-0 md:grid-cols-2">
-          <Link to="/Facebook/recording">
+          <Link to="/recording">
             <div className="recording-card border border-gray-200 w-4/5 shadow-sm rounded-xl">
               <div className="recording-card__img w-full p-4">
                 <img src={rec} alt="recording-card thumbnail w-full" />
@@ -24,7 +24,7 @@ const LastWeek = () => {
             </div>
           </Link>
 
-          <Link to="/Facebook/recording">
+          <Link to="/recording">
             <div className="recording-card border border-gray-200 w-4/5 shadow-sm rounded-xl">
               <div className="recording-card__img w-full p-4">
                 <img src={rec} alt="recording-card thumbnail w-full" />
