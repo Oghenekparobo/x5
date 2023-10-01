@@ -3,8 +3,7 @@ import Navbar from "../components/Navbar";
 import copy from "../assets/auth/copy.png";
 import Share from "../components/share/Share";
 import Footer from "../components/Footer";
-
-import ReactPlayer from "react-player";
+import Player from "../components/player/Player";
 
 const RedirectPage = () => {
   return (
@@ -61,7 +60,7 @@ const RedirectPage = () => {
           </section>
           <section className="video__transcripts">
             <div className="videoplayer">
-              <ReactPlayer url="https://www.youtube.com/watch?v=LXb3EKWsInQ" />
+              <Player />
             </div>
             <div className="transcripts">transcripts</div>
           </section>

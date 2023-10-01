@@ -1,5 +1,6 @@
 import rec from "../../assets/works/Rec.svg";
 import copy from "../../assets/auth/copy.png";
+import Player from "../player/Player";
 
 const Recording = () => {
   return (
@@ -12,11 +13,7 @@ const Recording = () => {
 
       <div className="recording-video__loader w-full h-[50px]">
         <div className="loader w-full h-1/2">
-          <img
-            src={rec}
-            alt="recording placeholder"
-            className="w-full h-full"
-          />
+          <Player />
         </div>
       </div>
 
